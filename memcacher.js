@@ -1,6 +1,6 @@
 var Transform = require('stream').Transform;
 
-var reMagic = /magic/g;
+var reMagic = /magic/gi;
 
 module.exports = function(opts) {
   var p = new Transform(opts);
